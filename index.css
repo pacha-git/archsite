@@ -19,9 +19,11 @@ body,html{
 #wrapper div {
 	display: inline-block;
 	vertical-align: middle;
-	
+
 }
 
 img {
 	height: 200px;
+    border-style: solid;
+    border-width: 1px;
 }
