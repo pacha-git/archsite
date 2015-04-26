@@ -5,19 +5,23 @@ body,html{
   font-family:'Vollkorn', serif;
 }
 
-p.sc2 {
-  position:absolute; 
-  top:40%; /* adjust this as needed */     
-  left:5%; 
-  width:95%; 
-  text-align:center;
+/* Requested img size = 200px */
+
+#wrapper {
+	text-align: center;
+	width: 100%;
+	top: 50%;
+	position: absolute;
+	vertical-align: middle;
+	transform: translateY(-50%);
 }
 
-img.sc3 {
-  margin: auto;
-  position: absolute;
-  top: 0%; left: 0; bottom: 10%; right: 35%;
-  width: 200px;
-  border-style: solid;
-  border-width: 1px;
+#wrapper div {
+	display: inline-block;
+	vertical-align: middle;
+	
+}
+
+img {
+	height: 200px;
 }
